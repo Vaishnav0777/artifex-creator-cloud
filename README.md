@@ -1,69 +1,61 @@
-# Welcome to your Lovable project
 
-## Project info
+# Artifex - AI-Powered Image Generator
 
-**URL**: https://lovable.dev/projects/e69a602c-94d0-466f-9988-72b8398edf54
+## Project Overview
 
-## How can I edit this code?
+Artifex is an AI-powered image generator that transforms text descriptions into beautiful, high-quality images. Users can customize their generations with different styles, aspect ratios, and quality settings.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Text-to-Image Generation**: Create unique images from text descriptions
+- **Style Customization**: Choose from various artistic styles
+- **Resolution Control**: Select from different aspect ratios
+- **Quality Settings**: Adjust the quality level of generated images
+- **AI Prompt Enhancement**: Automatically improve prompts for better results
+- **Fast Generation**: Quick image creation process
+- **Easy Downloads**: Save generated images with one click
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e69a602c-94d0-466f-9988-72b8398edf54) and start prompting.
+## Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **Notifications**: Sonner
+- **State Management**: React Query
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open your browser and navigate to `http://localhost:8080`
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Demo
 
-Follow these steps:
+[Project URL](https://lovable.dev/projects/e69a602c-94d0-466f-9988-72b8398edf54)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Usage
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. Enter a descriptive prompt in the input field
+2. Configure your desired settings (style, aspect ratio, quality)
+3. Click "Generate Image"
+4. Download or share your creation
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Development Roadmap
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- User accounts and saved image history
+- Advanced customization options
+- Batch generation
+- Image editing capabilities
+- Social sharing integration
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `/src/components`: UI components
+- `/src/pages`: Page components
+- `/src/hooks`: Custom React hooks
+- `/src/lib`: Utility functions and helpers
 
-**Use GitHub Codespaces**
+## License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e69a602c-94d0-466f-9988-72b8398edf54) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+This project is licensed under the MIT License.
